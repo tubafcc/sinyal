@@ -26,7 +26,7 @@ MuseScore programı kullanılarak oluşturulan notalar (notaların resmi aşağ�
 
 ## MuseScore ile yazılmış notalar
 
-![](muzik/nota-1.png =827x652)
+![](muzik/nota-1.png)
 
 ## Notaların Frekansları
 
