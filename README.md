@@ -37,7 +37,7 @@ Nota değerlerini tutan matriste 4.Sütun ile notaların frekanslarını;
 formülü kullanılarak hesaplanıyor. Burada "m" ile gösterilen yere 4.sutündan alınan değerler kullanılıyor. 
 
 Bu işlem "note.m" dosyasında aşağıda bulunan fonksiyon ile yapılmıştır.
-~~~~
+```matlab
 function frekans=note(deger)
     if(deger==0) 
       frekans=0;          
@@ -45,7 +45,7 @@ function frekans=note(deger)
       frekans=(2^((deger-69)/12))*440;
     end
 end
-~~~~
+```
 ## Nota Sinyalleri
 
 Nota sinyallerini oluşturmak için frekans ve zaman değerleri gerekiyor. Frekansı "note" fonksiyonu kullanılarak hesaplandı. Zaman için matrisin 6. ve 7. sütunu kullanılarak oluşturulacak. Bu sütunlar bir notanın ne zaman başlayacağını ve devam ettiği süreyi veriyor. Bir notanın  zamanı aşağıda belirtilen şekilde hesaplanıyor.
