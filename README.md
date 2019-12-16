@@ -93,7 +93,7 @@ xx=harmonikler.*zarf;
 zarflanmisMuzik=[zarflanmisMuzik xx];
 ```
 
-## ADSR Zarf
+### ADSR Zarf
 
 ADSR Zarfı oluşturmak için ilk kullanılan zaman değişkeni kullanılabilir. Attack, delay, sustain ve release zamanları için ayrı tanımlamalar yapılıyor. Attack süresi için genliğin 0'dan 1.5 değerine çıkması isteniliyor ve  bir nota zamanın %20'sini oluşturmalı. Delay süresi için genliğin 1.5'tan 1 değerine inmesi isteniliyor ve bir nota zamanının %10'unu oluşturmalı. Sustain süresi için genliğin 1 değerinde tutulmalı ve bir nota zamanının %50'sini oluşturmalı. Son olarak release süresi için genlik 1'den 0 değerine inmesi isteniliyor ve bir nota zamanının %20'sini oluşturmalı. İstenilenler göz önünde bulunarak aşağıdaki fonksiyonlar ile zarf tanımlanıyor.
 
