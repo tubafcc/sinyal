@@ -66,7 +66,7 @@ __ÖRNEK__
 
 Bir nota çalındığında kendi frekansı dışında farklı ama kendi frekansının katı olan sinyallerde üretir. Bu sinyallere harmonikler denilir. Oluşturulan sinyallin gerçeğe daha yakın olması için nota sinyaline harmonikler eklenir. Bir notanın harmonikleri aşağıda belirtilen şekilde hesaplanır.
 
-```
+```matlab
 harmonik=(1/n) x cos(2 x pi x n x zaman x frekans);  // n = Harmonik sayısı
 NotaSinyali=NotaSinyali+harmonik;
 ```
